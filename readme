@@ -1,0 +1,48 @@
+% ========================================================================
+% Set to Set Visual Tracking 1.0
+% Copyright(c) 2016 P. Zhu et al. 
+% All Rights Reserved.
+% 
+% ----------------------------------------------------------------------
+% Permission to use, copy, or modify this software and its documentation
+% for educational and research purposes only and without fee is here
+% granted, provided that this copyright notice and the original authors'
+% names appear on all copies and supporting documentation. This program
+% shall not be used, rewritten, or adapted as the basis of a commercial
+% software or hardware product without first obtaining permission of the
+% authors. The authors make no representations about the suitability of
+% this software for any purpose. It is provided "as is" without express
+% or implied warranty.
+% ----------------------------------------------------------------------  
+% 
+% Please refer to the following paper
+Zhu W, Zhu P, Hu Q, et al. Set to Set Visual Tracking[C]// 
+PRICAI 2016: Trends in Artificial Intelligence. Springer International Publishing, 2016.
+% 
+% bibtex
+@book{Zhu2016,
+author={Zhu, Wencheng and Zhu, Pengfei and Hu, Qinghua and Zhang, Changqing},
+title={Set to Set Visual Tracking},
+bookTitle={PRICAI 2016: Trends in Artificial Intelligence},
+year={2016},
+publisher={Springer International Publishing},
+pages={700--712},
+}
+%   
+% 
+% 
+% Contact: {zhupengfei}@tju.edu.cn
+% ----------------------------------------------------------------------
+
+The file demo.m is a example of our algorithm, and you can run it directly.
+
+The folder deer is the dataset of deer. It contains 71 images and deer.txt and 
+deer.txt is the groung truth.
+
+The folder results is the results of our demo, and can be deleted. It contains deer subfolder and deerSST1.mat.
+deer subfolder has 71 images, and these images show the trcking results.  
+deerSST1.mat is also the tracking results.
+
+
+
+
